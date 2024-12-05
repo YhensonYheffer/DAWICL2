@@ -11,8 +11,8 @@ import java.util.Date;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class Film {
 
+public class Film {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer filmId;
